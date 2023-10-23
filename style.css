@@ -1,0 +1,299 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/home-background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url(images/lists-background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*========== Header ==========*/
+
+.header{
+    background-color: black;
+
+    width: 100%;
+    height: 80px;
+    top:0;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+    margin-top: 14px;
+}
+
+.header img{
+    width: 200px;
+    margin-top: -12px;
+    
+}
+
+/*========== Home Page ==========*/
+
+#home{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#home-logo-img{
+    width: 220px;
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 120px;
+}
+
+/*========== Home Page ==========*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(247, 245, 245);
+    border-radius: 50px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*========== Meals PAGE ==========*/
+
+#meals {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+
+/*========== Meals Page Menu ==========*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid white;
+    border-radius: 60px;
+    margin-top: 30px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.meals-list-item i{
+float: right;
+color: white;
+padding-right: 20px;
+margin-top: 12px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+/*========== Recipe Page ==========*/
+
+#recipe{
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+/*========== Recipe Page Details ==========*/
+
+.recipe-details img{
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 70px;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 70px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+    color: white;
+}
+
+.recipe-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+}
+
+.recipe-details-info p{
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 70px;
+    padding: 8px;
+}
+
+.commentary{
+border: 3px solid white;
+border-radius: 70px;
+color: white;
+text-align: center;
+margin: 10px;
+}
+
+
+.recipe-details-ingredients h2{
+    color: white;
+}
+
+.recipe-details-ingredients label{
+    line-height: 25px;
+    margin-left: 10px;
+    color: white;
+}
+
+.recipe-details-steps{
+    padding-top: 20px;
+    color: white;
+}
+
+.recipe-details-steps ol{
+    padding-left: 28px;
+}
+
+.checkbox input{
+    width: 90%;
+    height: 70px;
+    margin: 12px;
+    border: 1px solid hsl(0,0%,57%);
+    border-radius: 70px;
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.submit{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: 4px solid white;
+    border-radius: 70px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    
+    padding: 8px 0 8px 0;
+}
+
+.order-received{
+    border: 3px solid white;
+    border-radius: 70px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+/*========== Responsive Layout ===========*/
+
+@media only screen and (min-width: 600px) {
+    #meals{
+        width:80%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #meals{
+        width:60%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #meals{
+        width:40%;
+        margin: auto;
+    }
+
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .body-home{
+        background-image: url(images/home-background.jpg);
+
+    .body-meals{
+        background-image: url(images/lists-background.jpg);
+        }
+    }
+}
+
